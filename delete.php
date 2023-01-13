@@ -20,13 +20,10 @@ try {
 $sql = "DELETE FROM DureAuto
         WHERE Id = :Id";
 
-// Bereid de query voor om de placeholder te vervangen voor een id-waarde
 $statement = $pdo->prepare($sql);
 
-// Vervang de placeholder voor een id-waarde
 $statement->bindValue(':Id', $_GET['Id'], PDO::PARAM_INT);
 
-// Voer de query uit op de mysql-database
 $result = $statement->execute();
 
 if ($result) {
