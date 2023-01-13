@@ -50,8 +50,6 @@ foreach ($result as $info) {
 
 <body>
     <h1>De Vijf duurste auto's ter wereld</h1>
-    <!-- <a href="index.php">
-    </a> -->
     <br>
     <br>
     <table border="1">
