@@ -14,7 +14,8 @@ try {
     echo $e->getMessage();
 }
 // Maak een select query die alle records uit de tabel persoon haalt
-$sql = "SELECT * FROM DureAuto";
+$sql = "SELECT * FROM DureAuto
+order by prijs desc";
 // maak via de sql-query gereed om te worden uitgevoerd op de database
 $statement = $pdo->prepare($sql);
 // voer de sql-query uit op de database
