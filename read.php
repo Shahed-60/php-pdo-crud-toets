@@ -26,7 +26,6 @@ $result = $statement->fetchAll(PDO::FETCH_OBJ);
 $rows = "";
 foreach ($result as $info) {
     $rows .= "<tr>
-                <td>$info->Id</td>
                 <td>$info->Merk</td> 
                 <td>$info->Model</td>
                 <td>$info->Topsnelheid</td>
@@ -57,7 +56,6 @@ foreach ($result as $info) {
     <br>
     <table border="1">
         <thead>
-            <th>Id</th>
             <th>Merk</th>
             <th>Model</th>
             <th>Topsnelheid</th>
