@@ -1,5 +1,4 @@
 <?php
-// voeg de verbindingsgegevens toe
 require('config.php');
 
 $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
