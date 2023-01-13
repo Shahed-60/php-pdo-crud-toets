@@ -59,8 +59,6 @@ foreach ($result as $info) {
             <th>Topsnelheid</th>
             <th>Prijs</th>
             <th>Delete</th>
-            <!-- <th></th>
-            <th></th> -->
         </thead>
         <tbody>
             <?= $rows; ?>
