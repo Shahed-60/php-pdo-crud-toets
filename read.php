@@ -49,7 +49,7 @@ foreach ($result as $info) {
 </head>
 
 <body>
-    <h3>De Vijf duurste auto's ter wereld</h3>
+    <h1>De Vijf duurste auto's ter wereld</h1>
     <!-- <a href="index.php">
     </a> -->
     <br>
