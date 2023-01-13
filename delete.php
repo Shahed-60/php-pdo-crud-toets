@@ -2,7 +2,6 @@
 // voeg de verbindingsgegevens toe
 require('config.php');
 
-// Maak een data sourcename string voor de pdo constructor
 $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
 
 try {
